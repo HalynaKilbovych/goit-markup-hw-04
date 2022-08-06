@@ -276,8 +276,10 @@ border-radius: 0px 0px 4px 4px;
   width: 100%;
   height: 100%;
   border-radius: 50%;
-
-  fill: #AFB1B8;
+}
+.team-sm-link { 
+  color:#AFB1B8;
+  fill: currentColor
 }
 
 .team-sm-link:hover, 
@@ -356,7 +358,8 @@ border-radius: 0px 0px 4px 4px;
   width: 100%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.1);
-  fill: #AFB1B8;
+  color: var(--secondary-header-colour);
+  fill: currentColor
 }
 
 .footer-sm-link:hover, 

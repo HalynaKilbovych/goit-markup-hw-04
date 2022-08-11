@@ -1,6 +1,6 @@
 :root {
-  --text-colour: #757575;
-  --primaty-header-colour: #212121;
+  --text-colour: #333333
+  --primary-header-colour: #212121;
   --secondary-header-colour: #ffffff;
   --accent-colour: #2196f3;
   --primary-backround-colour: #ffffff;
@@ -23,8 +23,7 @@ ul {
 }
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  letter-spacing: 0.03em;
+  font-size: 15px;
   color: var(--text-colour);
   background-color: var(--backround-colour);
 }
